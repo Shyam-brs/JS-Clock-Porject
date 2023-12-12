@@ -13,5 +13,5 @@
  3. The project is developed using HTML and CSS to design the page layout.
  4. we can adjust the themes by clicking the footer colors.
 
- you can live app [here](https://shyam-brs.github.io/js-clock/)
+ you can live app [here](https://shyam-brs.github.io/JS-Clock-Porject/)
 
