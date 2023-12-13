@@ -3,6 +3,7 @@
     --chathams_blue: #1a8472;
     --tamarillo: #991E14;
     --yellow_sea: #FEAD06;
+    --header-color:#ffffff;
 }
 
 * {
@@ -17,9 +18,9 @@ body {
 }
 
 .git {
-    color: var(--primary-color);
+    color:var(--header-color);
     text-align: center;
-    margin-top: 20px;
+    background-color: var(--primary-color);
 }
 .git a{
     color: var(--primary-color);
@@ -238,11 +239,11 @@ footer {
 }
 
 .theme-switch-chathams_blue {
-    background-color: var(--chathams_blue);
+    background-color: var(--primary-color);
 }
 
 .theme-switch-chathams_blue:hover {
-  box-shadow: 2px 2px 2px var(--chathams_blue);
+  box-shadow: 2px 2px 2px var(--primary-color);
 }
 
 .theme-switch-tamarillo {
