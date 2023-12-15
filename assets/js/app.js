@@ -27,6 +27,17 @@ function updateClock() {
   minuteHand.style.transform = `rotate(${minuteHandDegrees}deg)`;
   hourHand.style.transform = `rotate(${hourHandDegrees}deg)`;
 }
+function updateDateTime() {
+  var now = new Date();
+  var dateTimeString = now.toLocaleString();
+  document.getElementById("datetime").innerHTML = "Current Date and Time: " + dateTimeString;
+}
+
+// Initial call to display date and time
+updateDateTime();
+
+// Update date and time every second (1000 milliseconds)
+setInterval(updateDateTime, 1000);
 
 // update clock for each time
 setInterval(updateClock, 1000);
